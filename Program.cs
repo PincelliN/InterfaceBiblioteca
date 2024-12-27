@@ -1,15 +1,14 @@
-﻿
-namespace Biblio
+﻿namespace Biblio
 {
-
+    // Interfaccia IUser che definisce le proprietà comuni per gli utenti 
     public interface IUser
     {
         string ID { get; set; }
         int YearRegistration { get; set; }
-
         string Denomination { get; }
     }
 
+    // Classe Person che implementa l'interfaccia IUser
     public class Person : IUser
     {
         public string? Name { get; set; }
@@ -20,11 +19,12 @@ namespace Biblio
         {
             get
             {
-                return ID + ' ' + Name + ' ' + LastName;
+                return $"{ID} {Name} {LastName}";
             }
         }
-
     }
+
+    // Classe Organization che implementa l'interfaccia IUser
     public class Organization : IUser
     {
         public string? CompanyName { get; set; }
@@ -34,25 +34,30 @@ namespace Biblio
         {
             get
             {
-                return ID + ' ' + CompanyName;
+                return $"{ID} {CompanyName}";
             }
         }
     }
 
     public class Library
     {
-        static Array Users;
-
+        // Array di IUser per contenere sia persone che organizzazioni
+        static IUser[] Users;
         static void List()
         {
-            Console.WriteLine($"{Users}");
-
+            foreach (IUser item in Users)
+            {
+                Console.WriteLine(item.Denomination);
+            }
         }
-        public void Main()
+        public static void Main(string[] args)
         {
-            Persona a = new Persona("Nicolò", "Pincelli", 001);
-            Organization b = new Organization("Freelance", 001);
+            Person a = new Person { Name = "Nicolò", LastName = "Pincelli", ID = "001", YearRegistration = 2021 };
+            Organization b = new Organization { CompanyName = "Freelance", ID = "002", YearRegistration = 2024 };
 
+            // Inizializza l'array Users con i due oggetti (una persona e un'organizzazione)
+            Users = new IUser[] { a, b };
+            List();
         }
     }
 }

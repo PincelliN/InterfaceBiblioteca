@@ -1,0 +1,15 @@
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.AssemblyInfoInputs.cache
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.AssemblyInfo.cs
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.sourcelink.json
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\bin\Debug\net8.0\InterfaceBiblioteca.exe
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\bin\Debug\net8.0\InterfaceBiblioteca.deps.json
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\bin\Debug\net8.0\InterfaceBiblioteca.runtimeconfig.json
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\bin\Debug\net8.0\InterfaceBiblioteca.dll
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\bin\Debug\net8.0\InterfaceBiblioteca.pdb
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.dll
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\refint\InterfaceBiblioteca.dll
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.pdb
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\InterfaceBiblioteca.genruntimeconfig.cache
+C:\Users\Marik.DESKTOP-RC2L6B1\Documents\csharp\InterfaceBiblioteca\obj\Debug\net8.0\ref\InterfaceBiblioteca.dll
