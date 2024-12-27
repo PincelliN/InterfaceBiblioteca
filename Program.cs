@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public interface IUtente
+{
+    string ID { get; set; }
+    int YearRegistration { get; set; }
+
+    string Denomination { get; }
+
+}
