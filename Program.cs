@@ -12,23 +12,30 @@ namespace Biblio
 
     public class Person : IUser
     {
-        string? Name { get; set; }
-        string? LastName { get; set; }
-        string? ID { get; set; }
-        int YearRegistration { get; set; }
-        public string Denomination()
+        public string? Name { get; set; }
+        public string? LastName { get; set; }
+        public string? ID { get; set; }
+        public int YearRegistration { get; set; }
+        public string Denomination
         {
-            return ID + Name + LastName;
+            get
+            {
+                return ID + ' ' + Name + ' ' + LastName;
+            }
         }
+
     }
     public class Organization : IUser
     {
-        string? CompanyName { get; set; }
-        string? ID { get; set; }
-        int YearRegistration { get; set; }
-        public string Denomination()
+        public string? CompanyName { get; set; }
+        public string? ID { get; set; }
+        public int YearRegistration { get; set; }
+        public string Denomination
         {
-            return ID + CompanyName;
+            get
+            {
+                return ID + ' ' + CompanyName;
+            }
         }
     }
 
